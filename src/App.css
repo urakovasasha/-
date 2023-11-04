@@ -1,0 +1,282 @@
+@font-face {
+  font-family: 'Mont';
+  src: url('C:\Users\alexa\Desktop\упс\1\public\fonts\Mont-Bold.woff2') format('woff2'),
+       url('C:\Users\alexa\Desktop\упс\1\public\fonts\Mont-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'Mont';
+  src: url('C:\Users\alexa\Desktop\упс\1\public\fonts\Mont-Heavy.woff2') format('woff2'),
+       url('C:\Users\alexa\Desktop\упс\1\public\fonts\Mont-Heavy.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'Mont';
+  src: url('C:\Users\alexa\Desktop\упс\1\public\fonts\Mont-Regular.woff2') format('woff2'),
+       url('C:\Users\alexa\Desktop\упс\1\public\fonts\Mont-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'Mont';
+  src: url('C:\Users\alexa\Desktop\упс\1\public\fonts\Mont-SemiBold.woff2') format('woff2'),
+       url('C:\Users\alexa\Desktop\упс\1\public\fonts\Mont-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@media only screen and (min-width : 450px) {
+	*{
+    font-family: "Mont";
+    box-sizing: border-box;
+    margin: 0;
+    word-break: break-word;
+  }
+  
+  body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .Container1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .Container1 img{
+    width: 411px;
+    height: 68px;
+    margin-top: 100px;
+  }
+  
+  .Container2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    background-color:#F8F8F8;
+    border-radius: 15px  0px  0px  15px;
+    transition-duration: 500ms;
+  }
+  
+  .Container2 img{
+    margin-left: 25px;
+    width: 24px;
+    height: 24px;
+  }
+  
+  .Container2 input{
+    color: #9F9F9F;
+    background-color: #F8F8F8;
+    font-weight: 600;
+    font-size: 14px;
+    border: none;
+    width: 850px;
+    height: 60px;
+  }
+  
+  input {outline:none;}
+  
+  .Container2 button{
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    border: none;
+    width: 199px;
+    height: 60px;
+    background-color: #FEA300;
+    border-radius: 0px  15px  15px  0px;
+  }
+  
+  .Container2:hover{
+    -webkit-transform: scale(1.005);
+    -ms-transform: scale(1.02);
+    transform: scale(1.02);
+    transition-duration: 500ms;
+  }
+  
+  .Container3 {
+    margin-top: 70px;
+    width: 1060px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 20px;
+    box-shadow: 5px 5px 25px 0px #79797926;
+  
+  }
+  
+  .Container311 {
+    width: 292px;
+    height: 60px;
+    font-weight: 800;
+    font-size: 10px;
+  }
+  
+  .Container312 {
+    transition-duration: 500ms;
+  }
+  
+  .Container312 button {
+    border: none;
+    background-color: #FEA300;
+    width: 189px;
+    height: 48px;
+    border-radius: 15px;
+    font-weight: 700;
+    font-size: 14px;
+    color: white;
+    transition-duration: 500ms;
+  }
+  
+  .Container312:hover{
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+    transition-duration: 500ms;
+  }
+  
+  .Container32 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  #img1 {
+    display: none;
+  }
+}
+
+@media only screen and (max-width : 450px) {
+	*{
+    font-family: "Mont";
+    box-sizing: border-box;
+    margin: 0;
+    word-break: break-word;
+  }
+
+  body{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .Container1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .Container1 img{
+    width: 189px;
+    height: 34px;
+    margin-top: 100px;
+  }
+  
+  .Container2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    width: 100%;
+    height: 60px;
+    border-radius: 15px  15px  15px  15px;
+    transition-duration: 500ms;
+    background-color: #F8F8F8;
+  }
+  
+  .Container2 img{
+    margin-left: 25px;
+    width: 24px;
+    height: 24px;
+  }
+  
+  .Container2 input{
+    color: #9F9F9F;
+    background-color: #F8F8F8;
+    font-weight: 600;
+    font-size: 12px;
+    border: none;
+    width: 95%;
+    height: 60px;
+    border-radius: 15px  15px  15px  15px;
+  }
+  
+  input {outline:none;}
+  
+  .Container2 button{
+    display:none;
+  }
+  
+  .Container2:hover{
+    -webkit-transform: scale(1.005);
+    -ms-transform: scale(1.02);
+    transform: scale(1.02);
+    transition-duration: 500ms;
+  }
+  
+  .Container3 {
+    margin-top: 70px;
+    width: 310px;
+    height: 136px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 20px;
+    background-color: #FFF3DD;
+    background-image: url('C:\Users\alexa\Desktop\упс\1\public\images\Frame m1.svg');
+    background-size: cover;
+  }
+
+  .Container311 {
+    font-weight: 800;
+    font-size: 8px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+  #h1 {
+    color: #9F9F9F;
+  }
+
+  .Container312 button{
+    display: none;
+  }
+
+  .Container32 {
+    height: 136px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+  }
+
+  #img2 {
+    display: none;
+  }
+
+  #img3 {
+    display: none;
+  }
+
+  #img4 {
+    display: none;
+  }
+}
+
+
+
